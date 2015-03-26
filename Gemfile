@@ -52,6 +52,10 @@ end
 
 gem 'devise'
 
+gem 'will_paginate', '~> 3.0.5'
+
+gem 'will_paginate-bootstrap'
+
 gem 'jquery-turbolinks'
 
 gem 'masonry-rails'
