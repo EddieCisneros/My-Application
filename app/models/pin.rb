@@ -1,3 +1,6 @@
 class Pin < ActiveRecord::Base
 	belongs_to :user
-end
+
+	  validates :image, presence: true
+  validates :description, presence: true
+  end
